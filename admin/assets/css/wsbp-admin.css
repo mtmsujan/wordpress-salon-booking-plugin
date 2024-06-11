@@ -1,0 +1,172 @@
+:root {
+   --wsbp_primary-color: #064635;
+   --wsbp_secondery-color: #ddffbb66;
+   --wsbp_button-bg-color: #064635;
+   --wsbp_button-hover-color: #519259;
+   --wsbp_button-text-color: #ffffff;
+}
+
+/* services custom metabox */
+#wsbp_services_metabox{
+   border: none;
+   box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+#wsbp_services_metabox .postbox-header {
+   padding: 8px;
+   font-size: 18px;
+   color: var(--wsbp_primary-color);
+}
+#wsbp_services_metabox h2.hndle.ui-sortable-handle {
+   color: var(--wsbp_primary-color);
+   font-size: 21px !important;
+   text-transform: initial;
+}
+#wsbp_services_metabox label.form-label {
+   font-size: 16px;
+   font-weight: 500;
+   color: var(--wsbp_primary-color);
+}
+#wsbp_services_metabox input[type=text] {
+   padding: 3px 15px;
+}
+ #wsbp_services_metabox select {
+   padding: 5px 15px;
+}
+
+#wsbp_services_metabox option {
+   font-size: 16px;
+}
+
+/* booking custom metabox */
+#wsbp_booking_customer_details{
+   border: none;
+   box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+#wsbp_booking_customer_details .postbox-header {
+   padding: 8px;
+   font-size: 18px;
+   color: var(--wsbp_primary-color);
+}
+#wsbp_booking_customer_details h2.hndle.ui-sortable-handle {
+   color: var(--wsbp_primary-color);
+   font-size: 21px !important;
+   text-transform: initial;
+}
+#wsbp_booking_customer_details label.form-label {
+   font-size: 16px;
+   font-weight: 500;
+   color: var(--wsbp_primary-color);
+}
+#wsbp_booking_customer_details .handle-actions.hide-if-no-js {
+   display: none;
+}
+
+#wsbp_booking_customer_details .postbox-header {
+   border: none;
+}
+
+#wsbp_booking_customer_details input[type=text]:focus,input[type=email]:focus {
+   
+   color: #212529;
+   background-color: #fff;
+   border-color: #86b7fe;
+   outline: 0;
+   box-shadow: 0 0 0 0.20rem rgba(13,110,253,.25);
+
+}
+
+/* booking date & time metabox */
+#wsbp_booking_data_time{
+   border: none;
+   box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+#wsbp_booking_data_time .postbox-header {
+   padding: 8px;
+   font-size: 18px;
+   color: var(--wsbp_primary-color);
+}
+#wsbp_booking_data_time h2.hndle.ui-sortable-handle {
+   color: var(--wsbp_primary-color);
+   font-size: 21px !important;
+   text-transform: initial;
+}
+#wsbp_booking_data_time label.form-label {
+   font-size: 16px;
+   font-weight: 500;
+   color: var(--wsbp_primary-color);
+}
+#wsbp_booking_data_time .handle-actions.hide-if-no-js {
+   display: none;
+}
+
+#wsbp_booking_data_time .postbox-header {
+   border: none;
+}
+#wsbp_booking_data_time select {
+      font-size: 16px;
+      color: var(--wsbp_primary-color);
+}
+
+#wsbp_booking_data_time input[type=text]:focus {
+   
+   color: #212529;
+   background-color: #fff;
+   border-color: #86b7fe;
+   outline: 0;
+   box-shadow: 0 0 0 0.20rem rgba(13,110,253,.25);
+
+}
+
+/* booking date & time metabox */
+#wsbp_booking_services_assistants{
+   border: none;
+   box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+#wsbp_booking_services_assistants .postbox-header {
+   padding: 8px;
+   font-size: 18px;
+   color: var(--wsbp_primary-color);
+}
+#wsbp_booking_services_assistants h2.hndle.ui-sortable-handle {
+   color: var(--wsbp_primary-color);
+   font-size: 21px !important;
+   text-transform: initial;
+}
+#wsbp_booking_services_assistants label.form-label {
+   font-size: 16px;
+   font-weight: 500;
+   color: var(--wsbp_primary-color);
+}
+#wsbp_booking_services_assistants .handle-actions.hide-if-no-js {
+   display: none;
+}
+
+#wsbp_booking_services_assistants .postbox-header {
+   border: none;
+}
+#wsbp_booking_services_assistants select {
+      font-size: 16px;
+      color: var(--wsbp_primary-color);
+}
+
+#wsbp_booking_services_assistants input[type=text]:focus {
+   color: #212529;
+   background-color: #fff;
+   border-color: #86b7fe;
+   outline: 0;
+   box-shadow: 0 0 0 0.20rem rgba(13,110,253,.25);
+}
+
+#wsbp_booking_services_assistants a {
+   font-size: 18px;
+   text-decoration: none;
+   color: var(--wsbp_primary-color);
+   font-weight: 600;
+}
+
+#wsbp_booking_services_assistants .total_amount {
+   text-align: right;
+   font-size: 20px;
+   font-weight: 400;
+   color: var(--wsbp_primary-color);
+}
